@@ -1,0 +1,9 @@
+<h1>Songs of Manuel Mijares</h1>
+
+ <% @songs.each do |song| %>
+ <br />
+   <h3>TITLE: <%= song.title %></h3>
+   <h3>LENGTH: <%= song.length %></h3>
+   <h3>PLAYCOUNT: <%= song.play_count %></h3>
+   <br />
+ <% end %>
